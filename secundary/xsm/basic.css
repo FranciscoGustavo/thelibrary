@@ -1,0 +1,46 @@
+@media screen and (min-width: 20em) {
+	/* Técnica 1 float: left/right; */
+	.xsm-float-left { float: left; }
+	.xsm-float-rigt { float: right; }
+	.xsm-clear, .clear::before, .clear::after { clear: both; }
+	.xsm-clear::before, .clear::after {
+		content: "";
+		display: block;
+	}
+
+	/* Técnica 2 display: inline-block; */
+	.xsm-i-b { display: inline-block; }
+
+	/* Técnica 3 display: table; */
+	.xsm-table { display: table; }
+	.xsm-table-cell { display: table-cell; }
+
+	/* Alineaciones verticales y horizontales */
+	.xsm-v-top { vertical-align: top; }
+	.xsm-v-middle { vertical-align: middle; }
+	.xsm-v-bottom { vertical-align: bottom; }
+	.xsm-v-baseline { vertical-align: baseline; }
+	.xsm-txt-left { text-align: left; }
+	.xsm-txt-right { text-align: right; }
+	.xsm-txt-center { text-align: center; }
+	.xsm-txt-justify { text-align: justify; }
+
+	/* Border y Display */
+	.xsm-border { border: thin solid #000; }
+	.xsm-no-border { border: 0; }
+	.xsm-round { border-radius: 100%; }
+	.xsm-no-round { border-radius: 0; }
+	.xsm-inline { display: inline; }
+	.xsm-block { display: block; }
+	.xsm-none { display: none; }
+	.xsm-bullet {
+		margin-left: 16px;
+		margin-left: 1rem;
+		list-style-type: inherit;
+		list-style-position: inside;
+	}
+	.xsm-no-bullet {
+		margin-left: 0;
+		list-style-type: none;
+	}
+}

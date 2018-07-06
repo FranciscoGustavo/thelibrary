@@ -1,0 +1,37 @@
+@media screen and (min-width: 48em) {
+	/* Padding */
+	.md-p-auto { padding: auto; }
+	.md-p-0 { padding: 0; }
+	.md-p_25 {
+		padding: 4px;
+		padding: .25rem;
+	}
+	.md-p_5 {
+		padding: 8px;
+		padding: .5rem;
+	}
+	.md-p_75 {
+		padding: 12px;
+		padding: .75rem;
+	}
+	.md-p-1 {
+		padding: 16px;
+		padding: 1rem;
+	}
+	.md-p-1_25 {
+		padding: 20px;
+		padding: 1.25rem;
+	}
+	.md-p-1_5 {
+		padding: 24px;
+		padding: 1.5rem;
+	}
+	.md-p-1_75 {
+		margin: 28px;
+		margin: 1.75rem;
+	}
+	.md-p-2 {
+		padding: 32px;
+		padding: 2rem;
+	}
+}

@@ -1,0 +1,46 @@
+@media screen and (min-width: 48em) {
+	/* Técnica 1 float: left/right; */
+	.md-float-left { float: left; }
+	.md-float-rigt { float: right; }
+	.md-clear, .clear::before, .clear::after { clear: both; }
+	.md-clear::before, .clear::after {
+		content: "";
+		display: block;
+	}
+
+	/* Técnica 2 display: inline-block; */
+	.md-i-b { display: inline-block; }
+
+	/* Técnica 3 display: table; */
+	.md-table { display: table; }
+	.md-table-cell { display: table-cell; }
+
+	/* Alineaciones verticales y horizontales */
+	.md-v-top { vertical-align: top; }
+	.md-v-middle { vertical-align: middle; }
+	.md-v-bottom { vertical-align: bottom; }
+	.md-v-baseline { vertical-align: baseline; }
+	.md-txt-left { text-align: left; }
+	.md-txt-right { text-align: right; }
+	.md-txt-center { text-align: center; }
+	.md-txt-justify { text-align: justify; }
+
+	/* Border y Display */
+	.md-border { border: thin solid #000; }
+	.md-no-border { border: 0; }
+	.md-round { border-radius: 100%; }
+	.md-no-round { border-radius: 0; }
+	.md-inline { display: inline; }
+	.md-block { display: block; }
+	.md-none { display: none; }
+	.md-bullet {
+		margin-left: 16px;
+		margin-left: 1rem;
+		list-style-type: inherit;
+		list-style-position: inside;
+	}
+	.md-no-bullet {
+		margin-left: 0;
+		list-style-type: none;
+	}
+}

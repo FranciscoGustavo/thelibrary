@@ -1,0 +1,37 @@
+@media screen and (min-width: 48em) {
+	/* Margin */
+	.md-m-auto { margin: auto; }
+	.md-m-0 { margin: 0; }
+	.md-m_25 {
+		margin: 4px;
+		margin: 1rem;
+	}
+	.md-m_5 {
+		margin: 8px;
+		margin: .5rem;
+	}
+	.md-m_75 {
+		margin: 12px;
+		margin: .75rem;
+	}
+	.md-m-1 {
+		margin: 16px;
+		margin: 1rem;
+	}
+	.md-m-1_25 {
+		margin: 20px;
+		margin: 1.25rem;
+	}
+	.md-m-1_5 {
+		margin: 24px;
+		margin: 1.5rem;
+	}
+	.md-m-1_75 {
+		margin: 28px;
+		margin: 1.75rem;
+	}
+	.md-m-2 {
+		margin: 32px;
+		margin: 2rem;
+	}
+}

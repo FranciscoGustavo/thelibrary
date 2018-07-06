@@ -1,23 +1,4 @@
-@media screen and (min-width: 20em){
-	/* Técnica 1 float: left/right; */
-	.xsm-float-l { float: left; }
-	.xsm-float-r { float: right; }
-	.xsm-clear, .xsm-clear::before, .xsm-clear::after { clear: both; }
-	.xsm-clear::before, .xsm-clear::after {
-		content: "";
-		display: block;
-	}
-
-
-	/* Técnica 2 display: inline-block; */
-	.xsm-i-b { display: inline-block; }
-
-
-	/* Técnica 3 display: table; */
-	.xsm-table { display: table; }
-	.xsm-table-cell { display: table-cell; }
-
-
+@media screen and (min-width: 20em) {
 	/* Tecnica 4 display: flex; */
 	/* Display Flex */
 	.xsm-flex {
@@ -31,7 +12,6 @@
 		display: -webkit-inline-flex;
 		display: flex;
 	}
-
 
 	/* Flex Direction */
 	.xsm-flex-row {
@@ -55,9 +35,8 @@
 		flex-direction: column-reverse;
 	}
 
-
 	/* Flex Wrap */
-	.xsm-flex-nowrap {
+	.xsm-flex-no-wrap {
 		-webkit-flex-wrap: nowrap;
 		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
@@ -72,7 +51,6 @@
 		-ms-flex-wrap: wrap-reverse;
 		flex-wrap: wrap-reverse;
 	}
-
 
 	/* Justify Content */
 	.xsm-jc-flex-start {
@@ -101,7 +79,6 @@
 		justify-content: space-between;
 	}
 
-
 	/* Align Item */
 	.xsm-ai-flex-start {
 		-webkit-align-items: flex-start;
@@ -128,7 +105,6 @@
 		-ms-flex-align: stretch;
 		align-items: stretch;
 	}
-
 
 	/* Align Content */
 	.xsm-ac-flex-start {
@@ -162,7 +138,6 @@
 		align-content: stretch;
 	}
 
-
 	/* Flex */
 	.xsm-flex-none {
 		-ms-flex: none;
@@ -174,7 +149,6 @@
 		-webkit-flex: auto;
 		flex: auto;
 	}
-
 
 	/* Align Self */
 	.xsm-as-flex-start {
@@ -207,213 +181,4 @@
 		-ms-flex-item-align: auto;
 		align-self: auto;
 	}
-
-
-	/* Alineaciones verticales y horizontales */
-	.xsm-v-top { vertical-align: top; }
-	.xsm-v-middle { vertical-align: middle; }
-	.xsm-v-bottom { vertical-align: bottom; }
-	.xsm-v-baseline { vertical-align: baseline; }
-
-	.xsm-txt-left { text-align: left; }
-	.xsm-txt-right { text-align: right; }
-	.xsm-txt-center { text-align: center; }
-	.xsm-txt-justify { text-align: justify; }
-
-
-	/* Tamaños de fuente */
-	.xsm-font-0 { font-size: 0; }
-
-	.xsm-font_25 {
-		font-size: 4px;
-		font-size: .25rem;
-	}
-
-	.xsm-font_5 {
-		font-size: 8px;
-		font-size: .5rem;
-	}
-
-	.xsm-font_75 {
-		font-size: 12px;
-		font-size: .75rem;
-	}
-
-	.xsm-font-1 {
-		font-size: 16px;
-		font-size: 1rem;
-	}
-
-
-	.xsm-font-1_25 {
-		font-size: 20px;
-		font-size: 1.25rem;
-	}
-
-	.xsm-font-1_5 {
-		font-size: 24px;
-		font-size: 1.5rem;
-	}
-
-	.xsm-font-1_75 {
-		font-size: 28px;
-		font-size: 1.75rem;
-	}
-
-	.xsm-font-2 {
-		font-size: 32px;
-		font-size: 2rem;
-	}
-
-	.xsm-font-2_5 {
-		font-size: 40px;
-		font-size: 2.5rem;
-	}
-
-	.xsm-font-3 {
-		font-size: 48px;
-		font-size: 3rem;
-	}
-
-	.xsm-font-3_5 {
-		font-size: 56px;
-		font-size: 3.5rem;
-	}
-
-	.xsm-font-4 {
-		font-size: 40px;
-		font-size: 4rem;
-	}
-
-	.xsm-font-4_5 {
-		font-size: 72px;
-		font-size: 4.5rem;
-	}
-
-	.xsm-font-5 {
-		font-size: 80px;
-		font-size: 5rem;
-	}
-
-	/* Margin */
-
-	.xsm-m-aunto { margin: auto; }
-
-	.xsm-m-0 { margin: 0; }
-
-	.xsm-m_25 {
-		margin: 4px;
-		margin: 1rem;
-	}
-
-	.xsm-m_5 {
-		margin: 8px;
-		margin: .5rem;
-	}
-
-	.xsm-m_75 {
-		margin: 12px;
-		margin: .75rem;
-	}
-
-	.xsm-m-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.xsm-m-1_25 {
-		margin: 20px;
-		margin: 1.25rem;
-	}
-
-	.xsm-m-1_5 {
-		margin: 24px;
-		margin: 1.5rem;
-	}
-
-	.xsm-m-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.xsm-m-2 {
-		margin: 32px;
-		margin: 2rem;
-	}
-	/* Padding */
-	.xsm-p-aunto { padding: auto; }
-
-	.xsm-p-0 { padding: 0; }
-
-	.xsm-p_25 {
-		padding: 4px;
-		padding: 1rem;
-	}
-
-	.xsm-p_5 {
-		padding: 8px;
-		padding: .5rem;
-	}
-
-	.xsm-p_75 {
-		padding: 12px;
-		padding: .75rem;
-	}
-
-	.xsm-p-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.xsm-p-1_25 {
-		padding: 20px;
-		padding: 1.25rem;
-	}
-
-	.xsm-p-1_5 {
-		padding: 24px;
-		padding: 1.5rem;
-	}
-
-	.xsm-p-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.xsm-p-2 {
-		padding: 32px;
-		padding: 2rem;
-	}
-
-
-	/* Border y Display */
-
-	.xsm-border { border: thin solid #000; }
-
-	.xsm-noborder { border: 0; }
-
-	.xsm-round { border-radius: 100%; }
-
-	.xsm-noround { border-radius: 0; }
-
-	.xsm-inline { display: inline; }
-
-	.xsm-block { display: block; }
-
-	.xsm-none { display: none; }
-
-	.xsm-bullet {
-		margin-left: 16px;
-		margin-left: 1rem;
-		list-style-type: inherit;
-		list-style-position: inside;
-	}
-
-	.xsm-nobullet {
-		margin-left: 0;
-		list-style-type: none;
-	}
-
 }

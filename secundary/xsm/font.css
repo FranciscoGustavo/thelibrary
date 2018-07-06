@@ -1,0 +1,60 @@
+@media screen and (min-width: 20em) {
+	/* Tamaños de fuente */
+	.xsm-font-0 { font-size: 0; }
+	.xsm-font_25 {
+		font-size: 4px;
+		font-size: .25rem;
+	}
+	.xsm-font_5 {
+		font-size: 8px;
+		font-size: .5rem;
+	}
+	.xsm-font_75 {
+		font-size: 12px;
+		font-size: .75rem;
+	}
+	.xsm-font-1 {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	.xsm-font-1_25 {
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
+	.xsm-font-1_5 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+	.xsm-font-1_75 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+	.xsm-font-2 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+	.xsm-font-2_5 {
+		font-size: 40px;
+		font-size: 2.5rem;
+	}
+	.xsm-font-3 {
+		font-size: 48px;
+		font-size: 3rem;
+	}
+	.xsm-font-3_5 {
+		font-size: 56px;
+		font-size: 3.5rem;
+	}
+	.xsm-font-4 {
+		font-size: 40px;
+		font-size: 4rem;
+	}
+	.xsm-font-4_5 {
+		font-size: 72px;
+		font-size: 4.5rem;
+	}
+	.xsm-font-5 {
+		font-size: 80px;
+		font-size: 5rem;
+	}
+}

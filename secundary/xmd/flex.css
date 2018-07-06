@@ -1,21 +1,4 @@
-@media screen and (min-width: 37.5em){
-	/* Técnica 1 float: left/right; */
-	.xmd-float-l { float: left; }
-	.xmd-float-r { float: right; }
-	.xmd-clear, .xmd-clear::before, .xmd-clear::after { clear: both; }
-	.xmd-clear::before, .xmd-clear::after {
-		content: "";
-		display: block;
-	}
-
-	/* Técnica 2 display: inline-block; */
-	.xmd-i-b { display: inline-block; }
-
-	/* Técnica 3 display: table; */
-	.xmd-table { display: table; }
-	.xmd-table-cell { display: table-cell; }
-
-
+@media screen and (min-width: 37.5em) {
 	/* Tecnica 4 display: flex; */
 	/* Display Flex */
 	.xmd-flex {
@@ -29,7 +12,6 @@
 		display: -webkit-inline-flex;
 		display: flex;
 	}
-
 
 	/* Flex Direction */
 	.xmd-flex-row {
@@ -53,9 +35,8 @@
 		flex-direction: column-reverse;
 	}
 
-
 	/* Flex Wrap */
-	.xmd-flex-nowrap {
+	.xmd-flex-no-wrap {
 		-webkit-flex-wrap: nowrap;
 		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
@@ -70,7 +51,6 @@
 		-ms-flex-wrap: wrap-reverse;
 		flex-wrap: wrap-reverse;
 	}
-
 
 	/* Justify Content */
 	.xmd-jc-flex-start {
@@ -99,7 +79,6 @@
 		justify-content: space-between;
 	}
 
-
 	/* Align Item */
 	.xmd-ai-flex-start {
 		-webkit-align-items: flex-start;
@@ -126,7 +105,6 @@
 		-ms-flex-align: stretch;
 		align-items: stretch;
 	}
-
 
 	/* Align Content */
 	.xmd-ac-flex-start {
@@ -160,7 +138,6 @@
 		align-content: stretch;
 	}
 
-
 	/* Flex */
 	.xmd-flex-none {
 		-ms-flex: none;
@@ -172,7 +149,6 @@
 		-webkit-flex: auto;
 		flex: auto;
 	}
-
 
 	/* Align Self */
 	.xmd-as-flex-start {
@@ -205,213 +181,4 @@
 		-ms-flex-item-align: auto;
 		align-self: auto;
 	}
-
-
-	/* Alineaciones verticales y horizontales */
-	.xmd-v-top { vertical-align: top; }
-	.xmd-v-middle { vertical-align: middle; }
-	.xmd-v-bottom { vertical-align: bottom; }
-	.xmd-v-baseline { vertical-align: baseline; }
-
-	.xmd-txt-left { text-align: left; }
-	.xmd-txt-right { text-align: right; }
-	.xmd-txt-center { text-align: center; }
-	.xmd-txt-justify { text-align: justify; }
-
-
-	/* Tamaños de fuente */
-	.xmd-font-0 { font-size: 0; }
-
-	.xmd-font_25 {
-		font-size: 4px;
-		font-size: .25rem;
-	}
-
-	.xmd-font_5 {
-		font-size: 8px;
-		font-size: .5rem;
-	}
-
-	.xmd-font_75 {
-		font-size: 12px;
-		font-size: .75rem;
-	}
-
-	.xmd-font-1 {
-		font-size: 16px;
-		font-size: 1rem;
-	}
-
-
-	.xmd-font-1_25 {
-		font-size: 20px;
-		font-size: 1.25rem;
-	}
-
-	.xmd-font-1_5 {
-		font-size: 24px;
-		font-size: 1.5rem;
-	}
-
-	.xmd-font-1_75 {
-		font-size: 28px;
-		font-size: 1.75rem;
-	}
-
-	.xmd-font-2 {
-		font-size: 32px;
-		font-size: 2rem;
-	}
-
-	.xmd-font-2_5 {
-		font-size: 40px;
-		font-size: 2.5rem;
-	}
-
-	.xmd-font-3 {
-		font-size: 48px;
-		font-size: 3rem;
-	}
-
-	.xmd-font-3_5 {
-		font-size: 56px;
-		font-size: 3.5rem;
-	}
-
-	.xmd-font-4 {
-		font-size: 40px;
-		font-size: 4rem;
-	}
-
-	.xmd-font-4_5 {
-		font-size: 72px;
-		font-size: 4.5rem;
-	}
-
-	.xmd-font-5 {
-		font-size: 80px;
-		font-size: 5rem;
-	}
-
-	/* Margin */
-
-	.xmd-m-aunto { margin: auto; }
-
-	.xmd-m-0 { margin: 0; }
-
-	.xmd-m_25 {
-		margin: 4px;
-		margin: 1rem;
-	}
-
-	.xmd-m_5 {
-		margin: 8px;
-		margin: .5rem;
-	}
-
-	.xmd-m_75 {
-		margin: 12px;
-		margin: .75rem;
-	}
-
-	.xmd-m-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.xmd-m-1_25 {
-		margin: 20px;
-		margin: 1.25rem;
-	}
-
-	.xmd-m-1_5 {
-		margin: 24px;
-		margin: 1.5rem;
-	}
-
-	.xmd-m-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.xmd-m-2 {
-		margin: 32px;
-		margin: 2rem;
-	}
-	/* Padding */
-	.xmd-p-aunto { padding: auto; }
-
-	.xmd-p-0 { padding: 0; }
-
-	.xmd-p_25 {
-		padding: 4px;
-		padding: 1rem;
-	}
-
-	.xmd-p_5 {
-		padding: 8px;
-		padding: .5rem;
-	}
-
-	.xmd-p_75 {
-		padding: 12px;
-		padding: .75rem;
-	}
-
-	.xmd-p-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.xmd-p-1_25 {
-		padding: 20px;
-		padding: 1.25rem;
-	}
-
-	.xmd-p-1_5 {
-		padding: 24px;
-		padding: 1.5rem;
-	}
-
-	.xmd-p-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.xmd-p-2 {
-		padding: 32px;
-		padding: 2rem;
-	}
-
-
-	/* Border y Display */
-
-	.xmd-border { border: thin solid #000; }
-
-	.xmd-noborder { border: 0; }
-
-	.xmd-round { border-radius: 100%; }
-
-	.xmd-noround { border-radius: 0; }
-
-	.xmd-inline { display: inline; }
-
-	.xmd-block { display: block; }
-
-	.xmd-none { display: none; }
-
-	.xmd-bullet {
-		margin-left: 16px;
-		margin-left: 1rem;
-		list-style-type: inherit;
-		list-style-position: inside;
-	}
-
-	.xmd-nobullet {
-		margin-left: 0;
-		list-style-type: none;
-	}
-
 }

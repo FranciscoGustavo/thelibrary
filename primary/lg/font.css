@@ -1,0 +1,60 @@
+@media screen and (min-width: 75em) {
+	/* Tamaños de fuente */
+	.lg-font-0 { font-size: 0; }
+	.lg-font_25 {
+		font-size: 4px;
+		font-size: .25rem;
+	}
+	.lg-font_5 {
+		font-size: 8px;
+		font-size: .5rem;
+	}
+	.lg-font_75 {
+		font-size: 12px;
+		font-size: .75rem;
+	}
+	.lg-font-1 {
+		font-size: 16px;
+		font-size: 1rem;
+	}
+	.lg-font-1_25 {
+		font-size: 20px;
+		font-size: 1.25rem;
+	}
+	.lg-font-1_5 {
+		font-size: 24px;
+		font-size: 1.5rem;
+	}
+	.lg-font-1_75 {
+		font-size: 28px;
+		font-size: 1.75rem;
+	}
+	.lg-font-2 {
+		font-size: 32px;
+		font-size: 2rem;
+	}
+	.lg-font-2_5 {
+		font-size: 40px;
+		font-size: 2.5rem;
+	}
+	.lg-font-3 {
+		font-size: 48px;
+		font-size: 3rem;
+	}
+	.lg-font-3_5 {
+		font-size: 56px;
+		font-size: 3.5rem;
+	}
+	.lg-font-4 {
+		font-size: 40px;
+		font-size: 4rem;
+	}
+	.lg-font-4_5 {
+		font-size: 72px;
+		font-size: 4.5rem;
+	}
+	.lg-font-5 {
+		font-size: 80px;
+		font-size: 5rem;
+	}
+}

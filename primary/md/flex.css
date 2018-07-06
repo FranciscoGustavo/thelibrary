@@ -1,21 +1,4 @@
-@media screen and (min-width: 48em){
-	/* Técnica 1 float: left/right; */
-	.md-float-l { float: left; }
-	.md-float-r { float: right; }
-	.md-clear, .md-clear::before, .md-clear::after { clear: both; }
-	.md-clear::before, .md-clear::after {
-		content: "";
-		display: block;
-	}
-
-	/* Técnica 2 display: inline-block; */
-	.md-i-b { display: inline-block; }
-
-	/* Técnica 3 display: table; */
-	.md-table { display: table; }
-	.md-table-cell { display: table-cell; }
-
-
+@media screen and (min-width: 48em) {
 	/* Tecnica 4 display: flex; */
 	/* Display Flex */
 	.md-flex {
@@ -29,7 +12,6 @@
 		display: -webkit-inline-flex;
 		display: flex;
 	}
-
 
 	/* Flex Direction */
 	.md-flex-row {
@@ -53,9 +35,8 @@
 		flex-direction: column-reverse;
 	}
 
-
 	/* Flex Wrap */
-	.md-flex-nowrap {
+	.md-flex-no-wrap {
 		-webkit-flex-wrap: nowrap;
 		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
@@ -70,7 +51,6 @@
 		-ms-flex-wrap: wrap-reverse;
 		flex-wrap: wrap-reverse;
 	}
-
 
 	/* Justify Content */
 	.md-jc-flex-start {
@@ -99,7 +79,6 @@
 		justify-content: space-between;
 	}
 
-
 	/* Align Item */
 	.md-ai-flex-start {
 		-webkit-align-items: flex-start;
@@ -126,7 +105,6 @@
 		-ms-flex-align: stretch;
 		align-items: stretch;
 	}
-
 
 	/* Align Content */
 	.md-ac-flex-start {
@@ -160,7 +138,6 @@
 		align-content: stretch;
 	}
 
-
 	/* Flex */
 	.md-flex-none {
 		-ms-flex: none;
@@ -172,7 +149,6 @@
 		-webkit-flex: auto;
 		flex: auto;
 	}
-
 
 	/* Align Self */
 	.md-as-flex-start {
@@ -205,213 +181,4 @@
 		-ms-flex-item-align: auto;
 		align-self: auto;
 	}
-
-	/* Alineaciones verticales y horizontales */
-	.md-v-top { vertical-align: top; }
-	.md-v-middle { vertical-align: middle; }
-	.md-v-bottom { vertical-align: bottom; }
-	.md-v-baseline { vertical-align: baseline; }
-
-	.md-txt-left { text-align: left; }
-	.md-txt-right { text-align: right; }
-	.md-txt-center { text-align: center; }
-	.md-txt-justify { text-align: justify; }
-
-
-	/* Tamaños de fuente */
-	.md-font-0 { font-size: 0; }
-
-	.md-font_25 {
-		font-size: 4px;
-		font-size: .25rem;
-	}
-
-	.md-font_5 {
-		font-size: 8px;
-		font-size: .5rem;
-	}
-
-	.md-font_75 {
-		font-size: 12px;
-		font-size: .75rem;
-	}
-
-	.md-font-1 {
-		font-size: 16px;
-		font-size: 1rem;
-	}
-
-
-	.md-font-1_25 {
-		font-size: 20px;
-		font-size: 1.25rem;
-	}
-
-	.md-font-1_5 {
-		font-size: 24px;
-		font-size: 1.5rem;
-	}
-
-	.md-font-1_75 {
-		font-size: 28px;
-		font-size: 1.75rem;
-	}
-
-	.md-font-2 {
-		font-size: 32px;
-		font-size: 2rem;
-	}
-
-	.md-font-2_5 {
-		font-size: 40px;
-		font-size: 2.5rem;
-	}
-
-	.md-font-3 {
-		font-size: 48px;
-		font-size: 3rem;
-	}
-
-	.md-font-3_5 {
-		font-size: 56px;
-		font-size: 3.5rem;
-	}
-
-	.md-font-4 {
-		font-size: 40px;
-		font-size: 4rem;
-	}
-
-	.md-font-4_5 {
-		font-size: 72px;
-		font-size: 4.5rem;
-	}
-
-	.md-font-5 {
-		font-size: 80px;
-		font-size: 5rem;
-	}
-
-
-	/* Margin */
-
-	.md-m-aunto { margin: auto; }
-
-	.md-m-0 { margin: 0; }
-
-	.md-m_25 {
-		margin: 4px;
-		margin: 1rem;
-	}
-
-	.md-m_5 {
-		margin: 8px;
-		margin: .5rem;
-	}
-
-	.md-m_75 {
-		margin: 12px;
-		margin: .75rem;
-	}
-
-	.md-m-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.md-m-1_25 {
-		margin: 20px;
-		margin: 1.25rem;
-	}
-
-	.md-m-1_5 {
-		margin: 24px;
-		margin: 1.5rem;
-	}
-
-	.md-m-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.md-m-2 {
-		margin: 32px;
-		margin: 2rem;
-	}
-	/* Padding */
-	.md-p-aunto { padding: auto; }
-
-	.md-p-0 { padding: 0; }
-
-	.md-p_25 {
-		padding: 4px;
-		padding: 1rem;
-	}
-
-	.md-p_5 {
-		padding: 8px;
-		padding: .5rem;
-	}
-
-	.md-p_75 {
-		padding: 12px;
-		padding: .75rem;
-	}
-
-	.md-p-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.md-p-1_25 {
-		padding: 20px;
-		padding: 1.25rem;
-	}
-
-	.md-p-1_5 {
-		padding: 24px;
-		padding: 1.5rem;
-	}
-
-	.md-p-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.md-p-2 {
-		padding: 32px;
-		padding: 2rem;
-	}
-
-
-	/* Border y Display */
-
-	.md-border { border: thin solid #000; }
-
-	.md-noborder { border: 0; }
-
-	.md-round { border-radius: 100%; }
-
-	.md-noround { border-radius: 0; }
-
-	.md-inline { display: inline; }
-
-	.md-block { display: block; }
-
-	.md-none { display: none; }
-
-	.md-bullet {
-		margin-left: 16px;
-		margin-left: 1rem;
-		list-style-type: inherit;
-		list-style-position: inside;
-	}
-
-	.md-nobullet {
-		margin-left: 0;
-		list-style-type: none;
-	}
-
 }

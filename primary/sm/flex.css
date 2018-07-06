@@ -1,21 +1,4 @@
-@media screen and (min-width: 30em){
-	/* Técnica 1 float: left/right; */
-	.sm-float-l { float: left; }
-	.sm-float-r { float: right; }
-	.sm-clear, .sm-clear::before, .sm-clear::after { clear: both; }
-	.sm-clear::before, .sm-clear::after {
-		content: "";
-		display: block;
-	}
-
-	/* Técnica 2 display: inline-block; */
-	.sm-i-b { display: inline-block; }
-
-	/* Técnica 3 display: table; */
-	.sm-table { display: table; }
-	.sm-table-cell { display: table-cell; }
-
-
+@media screen and (min-width: 30em) {
 	/* Tecnica 4 display: flex; */
 	/* Display Flex */
 	.sm-flex {
@@ -29,7 +12,6 @@
 		display: -webkit-inline-flex;
 		display: flex;
 	}
-
 
 	/* Flex Direction */
 	.sm-flex-row {
@@ -53,9 +35,8 @@
 		flex-direction: column-reverse;
 	}
 
-
 	/* Flex Wrap */
-	.sm-flex-nowrap {
+	.sm-flex-no-wrap {
 		-webkit-flex-wrap: nowrap;
 		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
@@ -70,7 +51,6 @@
 		-ms-flex-wrap: wrap-reverse;
 		flex-wrap: wrap-reverse;
 	}
-
 
 	/* Justify Content */
 	.sm-jc-flex-start {
@@ -99,7 +79,6 @@
 		justify-content: space-between;
 	}
 
-
 	/* Align Item */
 	.sm-ai-flex-start {
 		-webkit-align-items: flex-start;
@@ -126,7 +105,6 @@
 		-ms-flex-align: stretch;
 		align-items: stretch;
 	}
-
 
 	/* Align Content */
 	.sm-ac-flex-start {
@@ -160,7 +138,6 @@
 		align-content: stretch;
 	}
 
-
 	/* Flex */
 	.sm-flex-none {
 		-ms-flex: none;
@@ -172,7 +149,6 @@
 		-webkit-flex: auto;
 		flex: auto;
 	}
-
 
 	/* Align Self */
 	.sm-as-flex-start {
@@ -205,214 +181,4 @@
 		-ms-flex-item-align: auto;
 		align-self: auto;
 	}
-
-
-	/* Alineaciones verticales y horizontales */
-	.sm-v-top { vertical-align: top; }
-	.sm-v-middle { vertical-align: middle; }
-	.sm-v-bottom { vertical-align: bottom; }
-	.sm-v-baseline { vertical-align: baseline; }
-
-	.sm-txt-left { text-align: left; }
-	.sm-txt-right { text-align: right; }
-	.sm-txt-center { text-align: center; }
-	.sm-txt-justify { text-align: justify; }
-
-
-	/* Tamaños de fuente */
-	.sm-font-0 { font-size: 0; }
-
-	.sm-font_25 {
-		font-size: 4px;
-		font-size: .25rem;
-	}
-
-	.sm-font_5 {
-		font-size: 8px;
-		font-size: .5rem;
-	}
-
-	.sm-font_75 {
-		font-size: 12px;
-		font-size: .75rem;
-	}
-
-	.sm-font-1 {
-		font-size: 16px;
-		font-size: 1rem;
-	}
-
-
-	.sm-font-1_25 {
-		font-size: 20px;
-		font-size: 1.25rem;
-	}
-
-	.sm-font-1_5 {
-		font-size: 24px;
-		font-size: 1.5rem;
-	}
-
-	.sm-font-1_75 {
-		font-size: 28px;
-		font-size: 1.75rem;
-	}
-
-	.sm-font-2 {
-		font-size: 32px;
-		font-size: 2rem;
-	}
-
-	.sm-font-2_5 {
-		font-size: 40px;
-		font-size: 2.5rem;
-	}
-
-	.sm-font-3 {
-		font-size: 48px;
-		font-size: 3rem;
-	}
-
-	.sm-font-3_5 {
-		font-size: 56px;
-		font-size: 3.5rem;
-	}
-
-	.sm-font-4 {
-		font-size: 40px;
-		font-size: 4rem;
-	}
-
-	.sm-font-4_5 {
-		font-size: 72px;
-		font-size: 4.5rem;
-	}
-
-	.sm-font-5 {
-		font-size: 80px;
-		font-size: 5rem;
-	}
-
-
-	/* Margin */
-
-	.sm-m-aunto { margin: auto; }
-
-	.sm-m-0 { margin: 0; }
-
-	.sm-m_25 {
-		margin: 4px;
-		margin: 1rem;
-	}
-
-	.sm-m_5 {
-		margin: 8px;
-		margin: .5rem;
-	}
-
-	.sm-m_75 {
-		margin: 12px;
-		margin: .75rem;
-	}
-
-	.sm-m-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.sm-m-1_25 {
-		margin: 20px;
-		margin: 1.25rem;
-	}
-
-	.sm-m-1_5 {
-		margin: 24px;
-		margin: 1.5rem;
-	}
-
-	.sm-m-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.sm-m-2 {
-		margin: 32px;
-		margin: 2rem;
-	}
-	/* Padding */
-	.sm-p-aunto { padding: auto; }
-
-	.sm-p-0 { padding: 0; }
-
-	.sm-p_25 {
-		padding: 4px;
-		padding: 1rem;
-	}
-
-	.sm-p_5 {
-		padding: 8px;
-		padding: .5rem;
-	}
-
-	.sm-p_75 {
-		padding: 12px;
-		padding: .75rem;
-	}
-
-	.sm-p-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.sm-p-1_25 {
-		padding: 20px;
-		padding: 1.25rem;
-	}
-
-	.sm-p-1_5 {
-		padding: 24px;
-		padding: 1.5rem;
-	}
-
-	.sm-p-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.sm-p-2 {
-		padding: 32px;
-		padding: 2rem;
-	}
-
-
-	/* Border y Display */
-
-	.sm-border { border: thin solid #000; }
-
-	.sm-noborder { border: 0; }
-
-	.sm-round { border-radius: 100%; }
-
-	.sm-noround { border-radius: 0; }
-
-	.sm-inline { display: inline; }
-
-	.sm-block { display: block; }
-
-	.sm-none { display: none; }
-
-	.sm-bullet {
-		margin-left: 16px;
-		margin-left: 1rem;
-		list-style-type: inherit;
-		list-style-position: inside;
-	}
-
-	.sm-nobullet {
-		margin-left: 0;
-		list-style-type: none;
-	}
-
 }

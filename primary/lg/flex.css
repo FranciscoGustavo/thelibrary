@@ -1,23 +1,4 @@
-@media screen and (min-width: 75em){
-	/* Técnica 1 float: left/right; */
-	.lg-float-l { float: left; }
-	.lg-float-r { float: right; }
-	.lg-clear, .lg-clear::before, .lg-clear::after { clear: both; }
-	.lg-clear::before, .lg-clear::after {
-		content: "";
-		display: block;
-	}
-
-
-	/* Técnica 2 display: inline-block; */
-	.lg-i-b { display: inline-block; }
-
-
-	/* Técnica 3 display: table; */
-	.lg-table { display: table; }
-	.lg-table-cell { display: table-cell; }
-
-
+@media screen and (min-width: 75em) {
 	/* Tecnica 4 display: flex; */
 	/* Display Flex */
 	.lg-flex {
@@ -31,7 +12,6 @@
 		display: -webkit-inline-flex;
 		display: flex;
 	}
-
 
 	/* Flex Direction */
 	.lg-flex-row {
@@ -55,9 +35,8 @@
 		flex-direction: column-reverse;
 	}
 
-
 	/* Flex Wrap */
-	.lg-flex-nowrap {
+	.lg-flex-no-wrap {
 		-webkit-flex-wrap: nowrap;
 		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
@@ -72,7 +51,6 @@
 		-ms-flex-wrap: wrap-reverse;
 		flex-wrap: wrap-reverse;
 	}
-
 
 	/* Justify Content */
 	.lg-jc-flex-start {
@@ -101,7 +79,6 @@
 		justify-content: space-between;
 	}
 
-
 	/* Align Item */
 	.lg-ai-flex-start {
 		-webkit-align-items: flex-start;
@@ -128,7 +105,6 @@
 		-ms-flex-align: stretch;
 		align-items: stretch;
 	}
-
 
 	/* Align Content */
 	.lg-ac-flex-start {
@@ -162,7 +138,6 @@
 		align-content: stretch;
 	}
 
-
 	/* Flex */
 	.lg-flex-none {
 		-ms-flex: none;
@@ -174,7 +149,6 @@
 		-webkit-flex: auto;
 		flex: auto;
 	}
-
 
 	/* Align Self */
 	.lg-as-flex-start {
@@ -207,214 +181,4 @@
 		-ms-flex-item-align: auto;
 		align-self: auto;
 	}
-
-	/* Alineaciones verticales y horizontales */
-	.lg-v-top { vertical-align: top; }
-	.lg-v-middle { vertical-align: middle; }
-	.lg-v-bottom { vertical-align: bottom; }
-	.lg-v-baseline { vertical-align: baseline; }
-
-	.lg-txt-left { text-align: left; }
-	.lg-txt-right { text-align: right; }
-	.lg-txt-center { text-align: center; }
-	.lg-txt-justify { text-align: justify; }
-
-	/* Tamaños de fuente */
-	.lg-font-0 { font-size: 0; }
-
-	.lg-font_25 {
-		font-size: 4px;
-		font-size: .25rem;
-	}
-
-	.lg-font_5 {
-		font-size: 8px;
-		font-size: .5rem;
-	}
-
-	.lg-font_75 {
-		font-size: 12px;
-		font-size: .75rem;
-	}
-
-	.lg-font-1 {
-		font-size: 16px;
-		font-size: 1rem;
-	}
-
-
-	.lg-font-1_25 {
-		font-size: 20px;
-		font-size: 1.25rem;
-	}
-
-	.lg-font-1_5 {
-		font-size: 24px;
-		font-size: 1.5rem;
-	}
-
-	.lg-font-1_75 {
-		font-size: 28px;
-		font-size: 1.75rem;
-	}
-
-	.lg-font-2 {
-		font-size: 32px;
-		font-size: 2rem;
-	}
-
-	.lg-font-2_5 {
-		font-size: 40px;
-		font-size: 2.5rem;
-	}
-
-	.lg-font-3 {
-		font-size: 48px;
-		font-size: 3rem;
-	}
-
-	.lg-font-3_5 {
-		font-size: 56px;
-		font-size: 3.5rem;
-	}
-
-	.lg-font-4 {
-		font-size: 40px;
-		font-size: 4rem;
-	}
-
-	.lg-font-4_5 {
-		font-size: 72px;
-		font-size: 4.5rem;
-	}
-
-	.lg-font-5 {
-		font-size: 80px;
-		font-size: 5rem;
-	}
-
-
-	/* Margin */
-
-	.lg-m-aunto { margin: auto; }
-
-	.lg-m-0 { margin: 0; }
-
-	.lg-m_25 {
-		margin: 4px;
-		margin: 1rem;
-	}
-
-	.lg-m_5 {
-		margin: 8px;
-		margin: .5rem;
-	}
-
-	.lg-m_75 {
-		margin: 12px;
-		margin: .75rem;
-	}
-
-	.lg-m-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.lg-m-1_25 {
-		margin: 20px;
-		margin: 1.25rem;
-	}
-
-	.lg-m-1_5 {
-		margin: 24px;
-		margin: 1.5rem;
-	}
-
-	.lg-m-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.lg-m-2 {
-		margin: 32px;
-		margin: 2rem;
-	}
-
-
-	/* Padding */
-	.lg-p-aunto { padding: auto; }
-
-	.lg-p-0 { padding: 0; }
-
-	.lg-p_25 {
-		padding: 4px;
-		padding: 1rem;
-	}
-
-	.lg-p_5 {
-		padding: 8px;
-		padding: .5rem;
-	}
-
-	.lg-p_75 {
-		padding: 12px;
-		padding: .75rem;
-	}
-
-	.lg-p-1 {
-		margin: 16px;
-		margin: 1rem;
-	}
-
-
-	.lg-p-1_25 {
-		padding: 20px;
-		padding: 1.25rem;
-	}
-
-	.lg-p-1_5 {
-		padding: 24px;
-		padding: 1.5rem;
-	}
-
-	.lg-p-1_75 {
-		margin: 28px;
-		margin: 1.75rem;
-	}
-
-	.lg-p-2 {
-		padding: 32px;
-		padding: 2rem;
-	}
-
-
-	/* Border y Display */
-
-	.lg-border { border: thin solid #000; }
-
-	.lg-noborder { border: 0; }
-
-	.lg-round { border-radius: 100%; }
-
-	.lg-noround { border-radius: 0; }
-
-	.lg-inline { display: inline; }
-
-	.lg-block { display: block; }
-
-	.lg-none { display: none; }
-
-	.lg-bullet {
-		margin-left: 16px;
-		margin-left: 1rem;
-		list-style-type: inherit;
-		list-style-position: inside;
-	}
-
-	.lg-nobullet {
-		margin-left: 0;
-		list-style-type: none;
-	}
-
 }

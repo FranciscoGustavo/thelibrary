@@ -1,0 +1,37 @@
+@media screen and (min-width: 75em) {
+	/* Padding */
+	.lg-p-auto { padding: auto; }
+	.lg-p-0 { padding: 0; }
+	.lg-p_25 {
+		padding: 4px;
+		padding: .25rem;
+	}
+	.lg-p_5 {
+		padding: 8px;
+		padding: .5rem;
+	}
+	.lg-p_75 {
+		padding: 12px;
+		padding: .75rem;
+	}
+	.lg-p-1 {
+		padding: 16px;
+		padding: 1rem;
+	}
+	.lg-p-1_25 {
+		padding: 20px;
+		padding: 1.25rem;
+	}
+	.lg-p-1_5 {
+		padding: 24px;
+		padding: 1.5rem;
+	}
+	.lg-p-1_75 {
+		margin: 28px;
+		margin: 1.75rem;
+	}
+	.lg-p-2 {
+		padding: 32px;
+		padding: 2rem;
+	}
+}

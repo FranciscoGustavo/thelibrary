@@ -1,0 +1,44 @@
+/* Técnica 1 float: left/right; */
+.float-left { float: left; }
+.float-rigt { float: right; }
+.clear, .clear::before, .clear::after { clear: both; }
+.clear::before, .clear::after {
+	content: "";
+	display: block;
+}
+
+/* Técnica 2 display: inline-block; */
+.i-b { display: inline-block; }
+
+/* Técnica 3 display: table; */
+.table { display: table; }
+.table-cell { display: table-cell; }
+
+/* Alineaciones verticales y horizontales */
+.v-top { vertical-align: top; }
+.v-middle { vertical-align: middle; }
+.v-bottom { vertical-align: bottom; }
+.v-baseline { vertical-align: baseline; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+.txt-justify { text-align: justify; }
+
+/* Border y Display */
+.border { border: thin solid #000; }
+.no-border { border: 0; }
+.round { border-radius: 100%; }
+.no-round { border-radius: 0; }
+.inline { display: inline; }
+.block { display: block; }
+.none { display: none; }
+.bullet {
+	margin-left: 16px;
+	margin-left: 1rem;
+	list-style-type: inherit;
+	list-style-position: inside;
+}
+.no-bullet {
+	margin-left: 0;
+	list-style-type: none;
+}

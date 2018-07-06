@@ -1,0 +1,184 @@
+@media screen and (min-width: 64em) {
+	/* Tecnica 4 display: flex; */
+	/* Display Flex */
+	.xlg-flex {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+	}
+	.xlg-inline-flex {
+		display: -ms-inline-flexbox;
+		display: -webkit-inline-flex;
+		display: flex;
+	}
+
+	/* Flex Direction */
+	.xlg-flex-row {
+		-webkit-flex-direction: row;
+		-ms-flex-direction: row;
+		flex-direction: row;
+	}
+	.xlg-flex-row-reverse {
+		-webkit-flex-direction: row-reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
+	}
+	.xlg-flex-column {
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+	.xlg-flex-column-reverse {
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+
+	/* Flex Wrap */
+	.xlg-flex-no-wrap {
+		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
+		flex-wrap: nowrap;
+	}
+	.xlg-flex-wrap {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+	}
+	.xlg-flex-wrap-reverse {
+		-webkit-flex-wrap: wrap-reverse;
+		-ms-flex-wrap: wrap-reverse;
+		flex-wrap: wrap-reverse;
+	}
+
+	/* Justify Content */
+	.xlg-jc-flex-start {
+		-webkit-justify-content: flex-start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.xlg-jc-flex-end {
+		-webkit-justify-content: flex-end;
+		-ms-flex-pack: end;
+		justify-content: flex-end;
+	}
+	.xlg-jc-center {
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.xlg-jc-sp-around {
+		-webkit-justify-content: space-around;
+		-ms-flex-pack: justify;
+		justify-content: space-around;
+	}
+	.xlg-jc-sp-between {
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: distribute;
+		justify-content: space-between;
+	}
+
+	/* Align Item */
+	.xlg-ai-flex-start {
+		-webkit-align-items: flex-start;
+		-ms-flex-align: start;
+		align-items: flex-start;
+	}
+	.xlg-ai-flex-end {
+		-webkit-align-items: flex-end;
+		-ms-flex-align: end;
+		align-items: flex-end;
+	}
+	.xlg-ai-center {
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+	.xlg-ai-baseline {
+		-webkit-align-items: baseline;
+		-ms-flex-align: baseline;
+		align-items: baseline;
+	}
+	.xlg-ai-stretch {
+		-webkit-align-items: stretch;
+		-ms-flex-align: stretch;
+		align-items: stretch;
+	}
+
+	/* Align Content */
+	.xlg-ac-flex-start {
+		-webkit-align-content: flex-start;
+		-ms-flex-line-pack: start;
+		align-content: flex-start;
+	}
+	.xlg-ac-flex-end {
+		-webkit-align-content: flex-end;
+		-ms-flex-line-pack: end;
+		align-content: flex-end;
+	}
+	.xlg-ac-center {
+		-webkit-align-content: center;
+		-ms-flex-line-pack: center;
+		align-content: center;
+	}
+	.xlg-ac-sp-between {
+		-webkit-align-content: space-between;
+		-ms-flex-line-pack: justify;
+		align-content: space-between;
+	}
+	.xlg-ac-sp-around {
+		-webkit-align-content: space-around;
+		-ms-flex-flex-line-pack: distribute;
+		align-content: space-around;
+	}
+	.xlg-ac-stretch {
+		-webkit-align-content: stretch;
+		-ms-flex-line-pack: stretch;
+		align-content: stretch;
+	}
+
+	/* Flex */
+	.xlg-flex-none {
+		-ms-flex: none;
+		-webkit-flex: none;
+		flex: none;
+	}
+	.xlg-flex-auto {
+		-ms-flex: auto;
+		-webkit-flex: auto;
+		flex: auto;
+	}
+
+	/* Align Self */
+	.xlg-as-flex-start {
+		-webkit-align-self: flex-start;
+		-ms-flex-item-align: start;
+		align-self: flex-start;
+	}
+	.xlg-as-flex-end {
+		-webkit-align-self: flex-end;
+		-ms-flex-item-align: end;
+		align-self: flex-end;
+	}
+	.xlg-as-center {
+		-webkit-align-self: center;
+		-ms-flex-item-align: center;
+		align-self: center;
+	}
+	.xlg-as-baseline {
+		-webkit-align-self: baseline;
+		-ms-flex-item-align:  baseline;
+		align-self: baseline;
+	}
+	.xlg-as-stretch {
+		-webkit-align-self: stretch;
+		-ms-flex-item-align: stretch;
+		align-self: stretch;
+	}
+	.xlg-as-auto {
+		-webkit-align-self: auto;
+		-ms-flex-item-align: auto;
+		align-self: auto;
+	}
+}
